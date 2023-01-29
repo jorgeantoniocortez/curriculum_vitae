@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Jorge Antonio Cortez">
+  <meta name="description" content="Curriculum Vitae de Jorge Cortez">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Titulo-->
+  <title>Curriculum Vitae de Jorge Cortez</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="images/icon-fav.png">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!--Barra de Navegacion-->
+  <nav class="navbar navbar-expand-md navbar seccion-gradiente">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <a class="navbar-brand" href="#">
+          <img src="images/icon-fav.png" width="50" alt="Logo">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#redes">Redes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Seccion Hero-->
+  <section class="hero align-items-stretch seccion-gradiente" >
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-perfil rounded-circle" src="images/desarrollador-ejemplo.jpg" alt="Foto de Jorge Cortez">
+      <h1>Hola, soy Jorge Cortez</h1>
+      <h3>Desarrollador Web</h3>
+    </div>
+    <div class="hero-inferior ">
+      <img class="hero-inferior-image img-fluid" src="images/hero-inferior.svg" alt="html, react,css,javascript">
+    </div>
+  </section>
+
+  <!--Sobre mi-->
+  <section class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo" id="sobre-mi">Conoce a Jorge</h2>
+      <p class="seccion-texto">Programador junior orientado al detalle que ofrece excelentes habilidades analíticas y la importante capacidad de funcionar bien tanto de forma independiente como en entornos de equipo de ritmo rápido. Con 2 años de experiencia remota ganador del premio al empleado del año,con un enfoque proactivo.</p>
+    </div>
+  </section>
+
+  <!--Habilidades-->
+  <section class="habilidades seccion-clara" id="habilidades">
+    <div class="container text-center">
+      <h2 class="seccion-titulo">Habilidades</h2>
+      <div class="row">
+        <!--Desarrollo Web-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="habilidades-titulo">Desarrolloo web</p>
+          <p>Tecnologias y habilidades fronte end</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Html</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">Javascript</span>
+            <span class="badge text-bg-primary">Bootstrap</span>
+            
+          </div>
+        </div>
+        <!--Articulos-->
+        <div class="columna col-12 col-md-4 ">
+          <i class="bi bi-graph-up"></i>
+          <p class="habilidades-titulo">Ciencia de datos</p>
+          <p>Capacidad resolutiva en problemas estadisticos con grandes volumenes de datos y programacion de metodos numericos</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Python</span>
+            <span class="badge text-bg-primary">R</span>
+            <span class="badge text-bg-primary">Mathlab</span>
+          </div>
+          Articulos
+        </div>
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-mortarboard"></i>
+          <p class="habilidades-titulo">Académico</p>
+          <p>Formacion tecnica, y en gestion de la produccion en ambitos industriales, mercadotecnia y logistica. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Tecnico Electrónico</span>
+            <span class="badge text-bg-primary">Estudiante de Ingenieria Industrial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--Experiencia-->
+  <section class="experiencia seccion-oscura" id="experiencia">
+    <div class="container">
+      <div class="row">
+        <h2 class="seccion-titulo">Experiencia</h2>
+        <div class="col"> 
+          <p>Desarrollo de software</p>
+          <ul>
+            <li>Colaboracion con el equipo de produccion para conocer los requisitos y las especificaciones empresariales en torno a la gestion de carteras, analisis y riesgos</li>
+            <li>Resolucion de problemas complejos con las utima tecnologias web</li>
+            <li>Codificacion eficaz de cambios y alteraciones de software en base a especificaciones de diseño concretas</li>
+            <li>Desarrollo y presentacion de conclusiones y soluciones a altos ejecutivos y partes interesadas</li>
+          </ul>
+          <p>Desarrollo de software</p>
+          <ul>
+            <li>Trabajé con exito tanto a nivel independiente como en equipo</li>
+            <li>Realicé tareas de prueba automatizadas y desarrolle funciones complejas de forma rutinaria</li>
+            <li>Abordé eficazmente errores complejos</li>
+            <li>Implementacion y actualizacion de módulos de aplicacion bajo la direccion de desarrolladores de software senior</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--Formulario-->
+  <section class="formulario_cv"  id="contacto">
+    <form class="col-xs-12 col-sm-6 col-md-6 col-lg-4" action="" method="POST" id="form">
+      <h2 class="titulo-contacto">Contacto</h2>
+      <div class="grupo">
+          <input type="text" name="name" id="name" ><span class="barra"></span>
+          <label for="">Nombre</label>
+      </div>
+      <div class="grupo">
+          <input type="email" name="email" id="email" ><span class="barra"></span>
+          <label for="">Email</label>
+      </div>
+      <div class="grupo">
+          <input type="text" name="mensaje" id="mensaje" ><span class="barra"></span>
+          <label for="">Mensaje</label>
+      </div>
+      <button class="button_send" type="submit">Enviar</button>
+      <p class="warnings" id="warnings"></p>
+    </form>
+  </section>
+  <!--Mapa-->
+  <section class="mapa-y-llamada seccion-clara">
+  <div class="container-fluid">
+    <div class="row  ">
+      <div class=" llamada col-12 col-md-6 col-xl-4 ">
+        <div class="justify-content-center align-items-center text-center">
+          <p>Puedes llamarme</p>
+          <a href="tel:+542646283235" class="llamar-telefono btn btn-success ">Llamar</a>
+          <p>O dirigirse a la direccion de mi estudio en: Mendoza&nbsp;Sur&nbsp;153 San&nbsp;Juan</p>
+        </div>
+      </div>
+      <div class="mapa col-12 col-md-6 col-xl-8">
+        <div class=" align-items-center justify-content-center block">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1700.282268530619!2d-68.52668738538772!3d-31.53611807215211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402839dba84f%3A0x5b87d441efe09b2c!2sMendoza%20Sur%20153%2C%20J5402GUC%20San%20Juan!5e0!3m2!1ses-419!2sar!4v1673794149236!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+<!--Pie de pagina-->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center" id="redes">
+  <img class="footer-icono" src="" alt="">
+  <p class="footer-texto text-center">Una mente inquieta no deja preguntas sin respuesta</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://www.facebook.com/jorge.a.cortez.9" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/coco.jcortez/" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://github.com/jorgeantoniocortez" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+  </div>
+  <div class="derechos-de-autor">Creado por Jorge Cortez (2023) &#169 </div>
+</footer>
+
+  <!--scripts Javascript-->
+    <script type="text/javascript" src="script.js"></script>
+  <!--scripts de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
